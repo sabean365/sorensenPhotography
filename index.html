@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="description" content="Sorensen Photography: A Full-Service Photography Studio.">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" media="all" href="stylesheet/sorensen1.css">
+	<title>Sorensen Photography: Home</title>
+</head>
+<body>
+<div id="page">
+<header>
+	<a class="logo" title="Sorensen Photography" href="#"><span>Sorensen Photography</span></a>
+	<div class="hero">
+		<h1>photos of a lifetime</h1>
+		<a class="btn" title="Get a Quote" href="https://form.jotform.com/62627689675172">Get a Quote</a>
+	</div>
+</header>
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="#" aria-haspopup="true">Gallery</a>
+			<ul>
+				<li><a href="infants.html">Infants</a></li>
+				<li><a href="family.html">Family</a></li>
+				<li><a href="wedding.html">Wedding</a></li>
+				<li><a href="school.html">School</a></li>
+			</ul>
+		<li><a href="#" aria-haspopup="true">Sessions</a>
+			<ul>
+				<li><a href="studio.html">Studio</a></li>
+				<li><a href="offsite.html">Off-site</a></li>
+				<li><a href="pricing.html">Pricing</a></li>
+			</ul>
+		</li>
+		<li><a href="contact.html">Contact</a></li>
+		
+	</ul>
+
+</nav>
+
+<section class="main">
+<h4>WELCOME TO SORENSEN PHOTOGRAPHY!</h4>
+	<aside>
+		<div class="content">
+			<h2>PROMOTION</h2>
+			<a class="image" title="Senior Pictures" href="#"><span>Senior Pictures</span></a>
+			<p>Back-to-School: It's time for senior pictures. Sorensen Photography is offering a 20% discount on all packages for your graduate!</p>
+			<a class="btn" title="More" href="school.html">MORE</a>
+		</div>
+	</aside>
+	
+		<div class="w3-content">
+			<img class="mySlides"  
+				src="img/wed02.jpg"
+				alt="wedding couple"
+				srcset="img/wed02_600.jpg 600w,
+						img/wed02_500.jpg 500w,
+						img/wedp2_400.jpg 400w"
+				sizes="(min-width: 1000px) 700px, 100vw">
+			<img class="mySlides" 
+				src="img/fam7.jpg"
+				alt="family portrait" 
+				srcset="img/fam7_600.jpg 600w,
+						img/fam7_500.jpg 500w,
+						img/fam7_400.jpg 400w"
+				sizes="(min-width: 1000px) 700px, 100vw">
+			<img class="mySlides" 
+				src="img/motherinf4.jpg"
+				alt="mother and infant" 
+				srcset="img/motherinf4_600.jpg 600w,
+						img/motherinf4_500.jpg 500w,
+						img/motherinf4_400.jpg 400w"
+				sizes="(min-width: 1000px) 700px, 100vw">
+			<img class="mySlides" 
+				src="img/fam6.jpg"
+				alt="family" 
+				srcset="img/fam6_600.jpg 600w,
+						img/fam6_500.jpg 500w,
+						img/fam6_400.jpg 400w"
+				sizes="(min-width: 1000px) 700px, 100vw">
+			<img class="mySlides" 
+				src="img/inf9.jpg"
+				alt="father and infant" 
+				srcset="img/inf9_600.jpg 600w,
+						img/inf9_500.jpg 500w,
+						img/inf9_400.jpg 400w"
+				sizes="(min-width: 1000px) 700px, 100vw">
+			<img class="mySlides" 
+				src="img/wed01.jpg"
+				alt="wedding couple"
+				srcset="img/wed01_600.jpg 600w,
+						img/wed01_500.jpg 500w,
+						img/wed01_400.jpg 400w"
+				sizes="(min-width: 1000px) 700px, 100vw">
+			<img class="mySlides" 
+				src="img/inf7.jpg"
+				alt="infant with blanket" 
+				srcset="img/inf7_600.jpg 600w,
+						img/inf7_500.jpg 500w,
+						img/inf7_400.jpg 400w"
+				sizes="(min-width: 1000px) 700px, 100vw">
+		</div>
+		
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000); 
+}
+</script>
+		
+</section>
+
+<section class="bottom">
+	<aside>
+		<div class="content">
+			<h2>SORENSEN PHOTOGRAPHY GUARANTEE</h2>
+			<blockquote>
+				<p class="quote">Sorensen Photography is so certain that you will treasure your images<br> 
+				that if you are not completely satisfied with your high-quality prints, <br>
+				we offer a 100% money-back guarantee on your photo session fees.</p>
+				<p class="credit"><strong>Timothy Sorensen</strong><br><em>Owner</em><br>Sorensen Photography</p>
+			</blockquote>
+		</div>
+	</aside>
+	<aside>
+		<div class="address">
+			<h3>Sorensen Photography<br>
+			1235 Central Ave<br> 
+			Saint Petersburg, FL 33710</h3>
+			<span id="desktop">888-555-5555 </span><br>
+			<a href="mailto:judith@sorensenphoto.com">judith@sorensenphoto.com</a><br>
+		</div>
+	</aside>
+</section>
+
+<footer>
+	&copy; 2016 Sorensen Photography
+	<div class="content">
+		<a title="Privacy Policy" href="#">Privacy Policy</a>
+		<a title="Terms of Service" href="#">Terms of Service</a>
+	</div>
+</footer>
+
+</div>
+</body>
+</html>
